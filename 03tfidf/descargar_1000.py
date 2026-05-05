@@ -30,7 +30,7 @@ def get_with_retry(url, retries=10, timeout=30):
 
 
 books_counter = 0
-page_url = "https://gutendex.com/books/?languages=es,en"
+page_url = "https://gutendex.com/books/?languages=es"
 out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '1000libros')
 os.makedirs(out_path, exist_ok=True)
 files = os.listdir(out_path)
