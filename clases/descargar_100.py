@@ -35,11 +35,11 @@ out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '100libros')
 os.makedirs(out_path, exist_ok=True)
 files = os.listdir(out_path)
 books_counter = len(files)
-while books_counter < 1000 and page_url:
+while books_counter < 100 and page_url:
     response = get_with_retry(page_url).json()
 
     for book in response['results']:
-        if books_counter >= 1000:
+        if books_counter >= 100:
             break
 
         title = book['title']
