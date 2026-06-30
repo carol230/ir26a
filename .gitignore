@@ -4,3 +4,7 @@
 03tfidf/1000books/
 100libros/
 corpus/
+clases/
+proyecto/
+rerank_ce.pkl
+rerank_ltr.pkl
