@@ -1,0 +1,7 @@
+gradio==5.49.1
+chromadb==1.5.9
+sentence-transformers==5.5.1
+torch==2.7.1
+transformers==4.52.4
+huggingface-hub==0.36.2
+google-genai==1.38.0
